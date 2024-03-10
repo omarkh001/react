@@ -1,13 +1,98 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*======= footer=============== */
+
+.end{
+
+  background-color:#0C1115;
+}
+/* ==============footer========= */
+
+/*=========== home=========== */
+.icon-home{
+  position: relative;
+}
+  .icon-home::after{
+  position: absolute;
+  content: "";
+  background-color: #fff;
+  width: 8rem;
+  height: 4px;
+  left: 100%;
+  top: 50%;
+}
+ .icon-home::before{
+  position: absolute;
+  content: "";
+  background-color: #fff;
+  width: 8rem;
+  height: 4px;
+  right: 100%;
+  top: 50%;
+} 
+/*======== home======== */
+
+.about{
+  background-color:#1ABC9C;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+ .icon-about i{
+  position: relative;
+  
+} 
+ .icon-about::after{
+  /* position: relative; */
+  content: "";
+  background-color: #fff;
+  width: 8rem;
+  height: 4px;
+  left: 100%;
+  top: 50%;
+} 
+
+ .icon-about::before{
+  content: "";
+  background-color: #fff;
+  width: 8rem;
+  height: 4px;
+  left: 100%;
+  top: 50%;
+} 
+
+
+.title{
+  color:#2C3E50 ;
+
+}
+.contact button{
+  background-color: #1ABC9C;
+  color: white;
+  transition: all .3s;
+}
+
+.contact button:hover{
+  background-color: #1ABC9C;
+  color: white;
+}
+
+.img{
+  position: relative;
+}
+.layer
+{
+
+
+  position: absolute;
+
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color:#1ABC9C; 
+  opacity: 0;
+  transition: all .3s;
+}
+
+.img:hover .layer{
+  opacity: 1;
 }
