@@ -10,7 +10,7 @@ import Portfolio from './components/Portfolio/Portfolio'
 
  let routes= createBrowserRouter([
     {path:"",element:<Layout/> ,children:[
-        {index:true,element:<Home/>},
+        {index:true,path: "react",element:<Home/>},
         {path:"About",element:<About/>},
         {path:"contact",element:<Contact/>},
         {path:"Portfolio",element:<Portfolio/>},
